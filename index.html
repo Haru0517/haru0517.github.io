@@ -1,190 +1,370 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-    <title>Yuto Chikazwa</title>
-    <link rel="icon" href="images/mm-icon.ico">
-    <!-- css -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-</head>
-<body>
-    <!-- navbar -->
-    <div class="navbar-fixed">
-        <nav class="white" role="navigation">
-            <div class="nav-wrapper container">
-                <a id="logo-container" href="http://mm.doshisha.ac.jp/" class="brand-logo"><img src="images/mm.png"></a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#" class="disable selected-language">日本語</a></li>
-                    <li><a href="./index_en.html">English</a></li>
-                </ul>
-                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-            </div>
-        </nav>
-    </div>
-    <ul id="nav-mobile" class="side-nav">
-        <li><a href="#" class="disable selected-language-mobile">日本語</a></li>
-        <li><a href="./index_en.html">English</a></li>
-    </ul>
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Yuto Chikazawa</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
+	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="author" content="freehtml5.co" />
 
-    <!-- toast -->
-    <div id="index-banner"></div>
+	<!-- 
+	//////////////////////////////////////////////////////
 
-    <!-- wrapper -->
-    <div class="wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col s12 l4 center">
-                    <!-- aboutme -->
-                    <div id="aboutme">
-                        <div class="section">
-                            <div class="center">
-                                <img class="image z-depth-1" src="images/aboutme.jpg">
-                                <h3><i class="mdi-content-send brown-text"></i></h3>
-                                <h4>近澤 悠登</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 l7 offset-l1">
-                    <!-- affiliation -->
-                    <div id="affiliation">
-                        <div class="section">
-                            <div>
-                                <h3><i class="mdi-content-send brown-text"></i></h3>
-                                <h5>所属</h5>
-                                <ul id="affiliation_list">
-                                    <li class="scrollfire-list">
-                                        <div>
-                                            <h6 class="brown-text"><a href="http://mm.doshisha.ac.jp/">知的機構研究室</a></h6>
-                                            <p class="brown-text light date">2019/04 ~ 現在</p>
-                                        </div>
-                                        <div>
-                                            <h6 class="brown-text"><a href="http://www.prontiatvr.com/">ProntiatVR</a></h6>
-                                            <p class="brown-text light date">2017/04 ~ 2018/03</p>
-                                        </div>
-                                        <div>
-                                            <h6 class="brown-text"><a href="https://twitter.com/study_dotvr">スタディドットVR</a></h6>
-                                            <p class="brown-text light date">2016/04 ~ 2017/03</p>
-                                        </div>
-                                        <div>
-                                            <h6 class="brown-text"><a href="https://twitter.com/VR_Agency">VR Agency</a></h6>
-                                            <p class="brown-text light date">2015/04 ~ 2016/03</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- education -->
-                    <div id="education">
-                        <div class="section">
-                            <div>
-                                <h3><i class="mdi-content-send brown-text"></i></h3>
-                                <h5>学歴</h5>
-                                <ul id="education_list">
-                                    <li class="scrollfire-list">
-                                        <div>
-                                            <h6 class="brown-text"><a href="http://www.doshisha.ac.jp/">同志社大学大学院</a></h6>
-                                            <p class="brown-text light date">2019/04 ~ 現在</p>
-                                        </div>
-                                    </li>
-                                    <li class="scrollfire-list">
-                                        <div>
-                                            <h6 class="brown-text"><a href="http://www.doshisha.ac.jp/">同志社大学</a></h6>
-                                            <p class="brown-text light date">2015/04 ~ 2019/03</p>
-                                        </div>
-                                    </li>
-                                    <li class="scrollfire-list">
-                                        <div>
-                                            <h6 class="brown-text"><a href="http://www.hyogo-c.ed.jp/~ono-hs/topframe.htm">兵庫県立小野高等学校</a></h6>
-                                            <p class="brown-text light date">2012/04 ~ 2015/03</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- works -->
-                    <div id="works">
-                        <div class="section">
-                            <div>
-                                <h3><i class="mdi-content-send brown-text"></i></h3>
-                                <h5>Works</h5>
-                                <ul id="works_list">
-                                    <li class="scrollfire-list">
-                                        <div>
-                                            <h6 class="brown-text"><a href="https://store.steampowered.com/app/790780/Yozakura_Wizard_VR/">Yozakura Wizard VR</a></h6>
-                                            <p class="brown-text light date">Steam</p>
-                                        </div>
-                                    </li>
-                                    <li class="scrollfire-list">
-                                        <div>
-                                            <h6 class="brown-text">マナリカVR （配信終了）</h6>
-                                            <p class="brown-text light date">iOS, Android</p>
-                                        </div>
-                                    </li>
-                                    <li class="scrollfire-list">
-                                        <div>
-                                            <h6 class="brown-text">Univeler （配信終了）</h6>
-                                            <p class="brown-text light date">iOS</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- publication -->
-                    <div id="publication">
-                        <div class="section">
-                            <div>
-                                <h3><i class="mdi-content-send brown-text"></i></h3>
-                                <h5>Publications</h5>
-                                <ul id="research_list">
-                                    <li class="scrollfire-list">
-                                        <div>
-                                            <h6 class="brown-text">
-                                                近澤悠登，桂井麻里衣，大向一輝:<br>
-                                                言語の異なる学術データベース間の著者同定，<br>
-                                                第11回データ工学と情報マネジメントに関するフォーラム，2019
-                                            </h6>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FreeHTML5.co
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
 
-    <!-- footer -->
-    <footer class="page-footer light-blue darken-1">
-        <div class="container">
-            <div class="row">
-                <div class="col s12">
-                    <h5 class="white-text">連絡先</h5>
-                    <ul>
-                        <li class="white-text"><span class="contact-list-icon"><i class="fa fa-envelope-o"></i></span><span> chikazawa[AT]mm[DOT]doshisha[DOT]ac[DOT]jp</span></li>
-                        <li><a class="white-text" href="https://github.com/Haru0517"><span class="contact-list-icon"><i class="fa fa-github"></i></span><span> GitHub</span></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-copyright">
-            <div class="container">
-            Made by Yuto Chikazawa
-            </div>
-        </div>
-    </footer>
+	//////////////////////////////////////////////////////
+	 -->
 
-    <!-- scripts -->
-    <script src="js/jquery-2.1.1.js"></script>
-    <script src="js/materialize.min.js"></script>
-    <script src="js/init.js"></script>
-</body>
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">	 -->
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/custom_home.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+<!-- jQuery.jsの読み込み -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+<!-- スムーズスクロール部分の記述 -->
+<script>
+	$(function () {
+		// #で始まるアンカーをクリックした場合に処理
+		$('a[href^=#]').click(function () {
+			// スクロールの速度
+			var speed = 1000; // ミリ秒
+			// アンカーの値取得
+			var href = $(this).attr("href");
+			// 移動先を取得
+			var target = $(href == "#" || href == "" ? 'html' : href);
+			// 移動先を数値で取得
+			var position = target.offset().top;
+			// スムーススクロール
+			$('body,html').animate({ scrollTop: position }, speed, 'swing');
+			return false;
+		});
+	});
+</script>
+
+<!-- jQuery -->
+<script src="/javascripts/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="/javascripts/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="/javascripts/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="/javascripts/jquery.waypoints.min.js"></script>
+<!-- Flexslider -->
+<script src="/javascripts/jquery.flexslider-min.js"></script>
+<!-- Main -->
+<script src="/javascripts/main.js"></script>
+
+
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<div class="top-menu">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-2">
+						<ul>
+							<li class="cs-imlk-logo"><a href="http://mm.doshisha.ac.jp/"><img src="images/iml_mark_outline.svg" width="40" height="40"></a></li>
+							<!--<li class="cs-imlk-logo" id="fh5co-logo"><a href="index.html">IMLK<span>.</span></a></li>-->
+						</ul>
+					</div>
+					<div class="col-xs-10 text-right menu-1">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#aboutme">About Me</a></li>
+							<li><a href="#affiliation">Affiliation</a></li>
+							<li><a href="#education">Education</a></li>
+							<li><a href="#publication">Publication</a></li>
+							<li><a href="#contact">Contact</a></li>
+							<!--<li class="btn-cta"><a href="#"><span>Login</span></a></li>-->
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</nav>
+
+	<div id="fh5co-header" class="fh5co-cover js-fullheight" role="banner">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-2 text-center">
+					<div class="display-t js-fullheight">
+						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+							<h1>YUTO CHIKAZAWA</h1>
+							<h2>VR development & Data analysis Experiences</h2>
+							<!--<p><a class="btn btn-primary btn-lg btn-demo" href="#"></i> View Demo</a> <a class="btn btn-primary btn-lg btn-learn">Learn More</a></p>
+							-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div id=aboutme>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>About Me</h2>
+				</div>
+			</div>
+			<div class="row animate-box">
+				<div class="col-md-9 col-md-offset-0 text">
+					<h4>Yuto Chikazawa</h4>
+					<h5>Programmer & Data Analyst from Kyoto</h5>
+					<p>I belonged to ProntiatVR of Doshisha Roam Project. It is an organization where students act actively, neither lectures
+					nor clubs. We created VR game "Yozakura Wizard VR", and are publishing on Steam.
+					We advanced to the final selection at the amateur division of Japanese Game Awards in 2017.
+					And we exhibited in indie type A of Tokyo Game Show 2018.
+					
+					Apart from that, I'm researching on "Author Identification" in academic databases of different languages by data
+					analysis.
+					
+					I have been developing games, but I am also interested in other software engineer, support engineer or data analyst.</p>
+				</div>
+				<div class="col-md-2 shadow">
+					<img src="images/chikazawa01.jpg" height="300px" loading="lazy">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div id=affiliation class="history">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Affiliation</h2>
+				</div>
+			</div>
+			<div class="row animate-box hist-row">
+				<div class="col-md-offset-1 col-md-2 date">
+					Mar.2021<br>Apr.2019
+				</div>
+				<div class="col-md-7 info">
+					<h4>Intelligent Mechanism Laboratory</h4>
+					<h5>Academic Data Analyst</h5>
+					<div>We're researching on "Author Identification" in academic databases of different languages, 
+						collaborating with National Institute of Informatics (NII). 
+						For details, please visit <a href="http://mm.doshisha.ac.jp/">our lab site</a>. 
+					</div>
+				</div>
+			</div>
+			<div class="row animate-box hist-row">
+				<div class="col-md-offset-1 col-md-2 date">
+					Mar.2018<br>Apr.2017
+				</div>
+				<div class="col-md-7 info">
+					<h4>ProntiatVR</h4>
+					<h5>Lead Programmer</h5>
+					<div>This project aimed to develop high quality VR games and involve many students.
+						We held VR workshops for junior & senior high school students,
+						and created our VR game <a href="https://store.steampowered.com/app/790780/Yozakura_Wizard_VR/">"Yozakura Wizard VR"</a>, and are publishing on Steam.
+					</div>
+				</div>
+			</div>
+			<div class="row animate-box hist-row">
+				<div class="col-md-offset-1 col-md-2 date">
+					Mar.2017<br>Apr.2016
+				</div>
+				<div class="col-md-7 info">
+					<h4>StudydotVR</h4>
+					<h5>Lead Programmer</h5>
+					<div>We created a VR app to promote the interest of junior and senior high school students in science.
+						And establishing a business partnership with TAKARA TOMY, we developed content for Joy!VR.
+					</div>
+				</div>
+			</div>
+			<div class="row animate-box hist-row">
+				<div class="col-md-offset-1 col-md-2 date">
+					Mar.2016<br>Apr.2015
+				</div>
+				<div class="col-md-7 info">
+					<h4>VR Agency</h4>
+					<h5>Programmer</h5>
+					<div>I joined Doshisha Roam Project for the first time here. We created a VR app to simulate a space trip.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div id="education" class="history">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Education</h2>
+				</div>
+			</div>
+			<div class="row animate-box hist-row">
+				<div class="col-md-offset-1 col-md-2 date">
+					Mar.2021<br>Apr.2019
+				</div>
+				<div class="col-md-7 info">
+					<h4>Doshisha University Graduate School</h4>
+					<h5>Master of Computer Science</h5>
+				</div>
+			</div>
+			<div class="row animate-box hist-row">
+				<div class="col-md-offset-1 col-md-2 date">
+					Mar.2019<br>Apr.2015
+				</div>
+				<div class="col-md-7 info">
+					<h4>Doshisha University</h4>
+					<h5>Bachelor of Computer Science</h5>
+				</div>
+			</div>
+			<div class="row animate-box hist-row">
+				<div class="col-md-offset-1 col-md-2 date">
+					Mar.2015<br>Apr.2012
+				</div>
+				<div class="col-md-7 info">
+					<h4>Ono High School</h4>
+					<h5>General Course</h5>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div id="publication">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Publication</h2>
+				</div>
+			</div>
+			<div class="row pub-data animate-box">
+				<div class="col-sm-offset-1 col-sm-1 pub-year">
+					<p>2019</p>
+				</div>
+				<div class="col-sm-8 pub-text">
+					<p>近澤悠登，桂井麻里衣，大向一輝:
+					言語の異なる学術データベース間の著者同定，
+					第11回データ工学と情報マネジメントに関するフォーラム</p>
+				</div>
+				<div class="col-sm-1 pub-pdf">
+					<a href="https://db-event.jpn.org/deim2019/post/papers/367.pdf" class="btn btn-sm btn-sm-custom">PDF</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<footer id="fh5co-footer" role="contentinfo">
+		<div class="container">
+			<div class="row row-pb-md">
+				<div id='contact' class="col-md-6 fh5co-widget">
+					<h4>Contact</h4>
+					<ul class="fh5co-footer-links">
+						<li><i class="icon-mail4"></i> <a>chikazawa[AT]mm[DOT]doshisha[DOT]ac[DOT]jp</a></li>
+						<li><i class="icon-linkedin-with-circle"></i> <a href="https://www.linkedin.com/in/yuto-chikazawa-449318109/">Linkedin</a></li>
+						<li><i class="icon-github2"></i> <a href="https://github.com/Haru0517">Github</a></li>
+					</ul>
+					<p></p>
+				</div>
+				<div class="col-md-2 col-md-offset-2 fh5co-widget">
+					<h4>Links</h4>
+					<ul class="fh5co-footer-links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#aboutme">About Me</a></li>
+						<li><a href="#affiliation">Affiliation</a></li>
+						<li><a href="#education">Education</a></li>
+						<li><a href="#publication">Publication</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-2 fh5co-widget">
+					<h4>External Links</h4>
+					<ul class="fh5co-footer-links">
+						<li><a href="https://www.doshisha.ac.jp/">Doshisha Univ.</a></li>
+						<li><a href="http://mm.doshisha.ac.jp/">Laboratory</a></li>
+						<li><a href="https://store.line.me/stickershop/product/1374775">Lab's LINE Stamp</a></li>
+						<li><a href="http://www.prontiatvr.com/index.html">ProntiatVR</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy; Yuto Chikazawa All Rights Reserved.</small> 
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
 </html>
+

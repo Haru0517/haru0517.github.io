@@ -1,0 +1,175 @@
+/* color:
+darkgoldenrod, tan
+antiquewhite, 
+黒：#333333, #6b6b6b
+ピンク：#dd356e
+青：#325386, rgb(2, 168, 243)
+*/
+:root {
+    --main-color: rgb(60, 180, 143);
+    --sub-color: rgb(255, 245, 226);
+    --accent-color: white;
+    --main-font-color: rgb(255, 245, 226);
+    --sub-font-color: #333333;
+    --accent-font-color: #333333;
+    --moderate_font-color: whitesmoke;
+}
+
+/* ヘッダー */
+.fh5co-nav ul li.cs-imlk-logo img {
+    vertical-align: top;
+}
+.fh5co-nav ul li.cs-imlk-logo a {
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Inconsolata", "M PLUS Rounded 1c", "M PLUS 1p", Arial, sans-serif;
+}
+.fh5co-nav .top-menu {
+  padding: 28px 0 10px;
+}
+.fh5co-nav {
+    background-color: var(--main-color);
+
+}
+.fh5co-nav ul li a, .fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
+  color: var(--main-font-color);
+}
+.fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
+  color: rgb(194, 255, 175);
+}
+
+/*全体の設定*/
+#space, #aboutme, #affiliation, #education, #publication {
+    padding: 7em 0;
+    clear: both;
+}
+@media screen and (max-width: 768px){
+#space, #aboutme, #affiliation, #education, #publication {
+    padding: 3em 0;
+}
+}
+.btn-sm-custom {
+    padding: 3px 12px;
+    border: 1px solid var(--main-color);
+    background: var(--sub-color);
+    color: var(--main-color);
+    text-transform: uppercase;
+    transition: 0.2s;
+ }
+ .btn-sm-custom:hover {
+    background: var(--main-color);
+    color: #fff;
+}
+
+/*Home*/
+#fh5co-header {
+    background-color: var(--sub-color);
+}
+
+/*About Me*/
+#aboutme, #aboutme h2 {
+    background-color: var(--main-color);
+    color: var(--main-font-color);
+}
+#aboutme .text {
+    font-size: 18px;
+}
+#aboutme .text h4 {
+    font-size: 30px;
+    color: var(--main-font-color);
+    margin-bottom: 10px;
+}
+#aboutme .text h5 {
+    font-size: 24px;
+    color: var(--main-font-color);
+    margin-bottom: 10px;
+}
+#aboutme img {
+    padding: 5px;
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.13);
+}
+
+/*History*/
+.history .date {
+    font-size: 20px;
+    font-style: italic;
+    padding: 10px 70px 10px 0;
+    text-align: right;
+}
+@media screen and (max-width: 650px){
+.history .date {
+    padding: 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+}
+.history .info {
+    border-left: 2px solid #ada5ad;
+    padding: 0px 0px 0px 70px;
+}
+.history .info h4 {
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 5px;
+}
+.history .info h5 {
+    font-size: 16px;
+    color: #6b6b6b;
+    margin-bottom: 5px;
+}
+.history .info div {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.history .hist-row {
+    margin: 0 0 70px;
+}
+
+
+/*Affiliation*/
+#affiliation {
+    background-color: var(--sub-color);
+}
+
+
+/*Education*/
+#education {
+    background-color: var(--accent-color);
+    color: var(--accent-font-color);
+}
+#education .date {
+    padding: 0 70px 0 0;
+}
+@media screen and (max-width: 650px){
+#education .date {
+    padding: 0;
+}
+}
+#education .info {
+    padding: 10px 0 10px 70px;
+}
+
+/*publication*/
+#publication {
+    background-color: var(--sub-color);
+    color: var(--sub-font-color);
+}
+
+/*footer*/
+#fh5co-footer {
+    background-color: var(--main-color);
+    color: var(--main-font-color);
+    padding-bottom: 10px;
+}
+#fh5co-footer h4 {
+    font-weight: bold;
+    color: var(--main-font-color);
+}
+#fh5co-footer .fh5co-footer-links li a, #fh5co-footer small{
+    color: var(--main-font-color);
+}
