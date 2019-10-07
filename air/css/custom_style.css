@@ -1,0 +1,598 @@
+@charset "UTF-8";
+
+/*
+青：#325386
+黄色：#FEE856
+ピンク：#dd356e
+*/
+
+/* 見出しフォントの変更 */
+h1, h2, h3, h4, h5, h6, figure {
+    font-family: "Inconsolata", "M PLUS 1p", "M PLUS Rounded 1c", Arial, sans-serif;
+}
+/* 本文フォントの変更 */
+body, .btn {
+    font-family: "M PLUS Rounded 1c", "M PLUS 1p", Arial, sans-serif;
+}
+
+/* ヘッダーのIMLK. */
+.fh5co-nav ul li.cs-imlk-logo img {
+    vertical-align: top;
+}
+.fh5co-nav ul li.cs-imlk-logo a {
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Inconsolata", "M PLUS Rounded 1c", "M PLUS 1p", Arial, sans-serif;
+}
+
+/* フッター */
+#fh5co-footer {
+    background: #dd356e;
+    padding: 100px 0px 0px;
+}
+#fh5co-footer .row-pb-md {
+    padding: 0px !important; 
+}
+#fh5co-footer h4 {
+    font-weight: bold;
+    color: #fff;
+}
+#fh5co-footer .fh5co-footer-links li a, #fh5co-footer small{
+    color: rgb(230, 230, 230);
+}
+
+
+/* 全体の設定 */
+#home-news,
+#home-message,
+#home-research,
+#home-for-visiters,
+#research,
+#members,
+#publications,
+#resources,
+#access,
+#slogan,
+#lablife,
+#news,
+#resource-details {
+    padding: 7em 0;
+    clear: both;
+}
+@media screen and (max-width: 768px) {
+#home-news,
+#home-message,
+#home-research,
+#home-for-visiters,
+#research,
+#members,
+#publications,
+#resources,
+#access,
+#slogan,
+#lablife,
+#news,
+#resource-details {
+      padding: 3em 0;
+    }
+}
+/* 全体の見出し */
+.custom-heading-black h2 {
+    position: relative;
+    font-size: 54px;
+    margin-bottom: 60px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: black;
+    font-weight: bold;
+}
+.custom-heading-black-jp h2 {
+    position: relative;
+    font-size: 45px;
+    margin-bottom: 60px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: black;
+    font-weight: bold;
+}
+.custom-heading-white h2 {
+    position: relative;
+    font-size: 54px;
+    margin-bottom: 60px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: white;
+    font-weight: bold;
+}
+.custom-subheading-black h3 {
+    position: relative;
+    font-size: 24px;
+    margin: 30px 0px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: black;
+    font-weight: bold;
+}
+.custom-subheading-white h3 {
+    position: relative;
+    font-size: 24px;
+    margin: 30px 0px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: white;
+    font-weight: bold;
+}
+.custom-text-white p, .custom-text-white a{
+    color: white;
+}
+.custom-text-gray p, .custom-text-gray a{
+    color: rgb(204, 204, 204);
+}
+/* ボタン */
+.btn-lg-custom {
+    height: 60px;
+    border: none !important;
+    background: #DD356E;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.btn-lg-custom:hover {
+    color: #fff;
+    -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
+    -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
+    box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
+}
+.btn-sm-custom {
+    padding: 3px 12px;
+    border: 1px solid #DD356E;
+    background: #fff;
+    color: #DD356E;
+    text-transform: uppercase;
+    transition: 0.2s;
+ }
+ .btn-sm-custom:hover {
+    background: #DD356E;
+    color: #fff;
+}
+/* ボーダー */
+.border {
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    margin: 50px;
+ }
+
+
+/* ホーム */
+
+/* ホーム：見出し */
+#fh5co-header {
+    background: white;
+}
+
+/* ホーム：News */
+#home-news {
+    background: #FEE856;
+}
+@media screen and (max-width: 768px) {
+#home-news {
+    width: 100%;
+}
+}
+#home-news .news-text {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+}
+#home-news .news-text span {
+    padding: 10px 0px;
+    font-size: 20px !important;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+#home-news .news-text p {
+    margin-bottom: 10px;
+}
+#home-news .read-more {
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    margin-top: 40px;
+}
+#home-news .read-more p a:any-link {
+    color: black;
+}
+#home-news .read-more p a:hover {
+    color: #dd356e;
+    transition: 0.2s;
+}
+  
+
+/* ホーム：メッセージ */
+#home-message {
+    background: white;
+}
+#home-message .row01,
+#home-message .row02,
+#home-message .row03 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+#home-message .row01,
+#home-message .row03 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+#home-message .photo img {
+    padding: 5px;
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.13);
+    margin-bottom: 50px;
+}
+#home-message .text p{
+    font-size: 24px;
+    padding: 50px;
+}
+@media screen and (max-width: 768px) {
+#home-message .text p{
+    font-size: 20px;
+    padding: 30px;
+}
+}
+
+
+/* ホーム：研究内容 */
+#home-research {
+    background: #325386;
+}
+#home-research .feature-left {
+    margin-bottom: 40px;
+    float: left;
+}
+@media screen and (max-width: 992px) {
+#home-research .feature-left {
+    padding: 0px;
+}
+}
+#home-research .feature-left .icon {
+    /* アイコンに円形をつける　*/
+    margin: 30px 0px;
+    display: table;
+    float: left;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+#home-research .feature-left .icon i {
+    /* アイコンの位置と色 */
+    font-size: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    height: 60px;
+    color: #DD356E !important;
+}
+#home-research .feature-left .feature-copy {
+    float: right;
+    width: 78%;
+}
+@media screen and (max-width: 768px) {
+#home-research .feature-left .feature-copy {
+    width: 84%;
+}
+}
+@media screen and (max-width: 480px) {
+#home-research .feature-left .feature-copy {
+    width: 70%;
+}
+}
+#home-research .feature-left .feature-copy a h3:hover {
+    /* 研究タイトルの色（ホバー時） */
+    color: #DD356E;
+    transition: 0.3s;
+}
+#home-research .feature-left p {
+    font-size: 15px;
+}
+#home-research .feature-left p:last-child {
+    margin-bottom: 0;
+}
+#home-research .feature-left p a:any-link {
+    /* read more */
+    color: white;
+}
+#home-research .feature-left p a:hover {
+    /* read more */
+    color: #dd356e;
+    transition: 0.2s;
+}
+#home-research .ipad-bg {
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 430px;
+}
+@media screen and (max-width: 768px) {
+#home-research .ipad-bg {
+    height: 210px;
+}
+}
+@media screen and (max-width: 480px) {
+#home-research .ipad-bg {
+    display: none;
+}
+}
+
+/* ホーム：For Visiters */
+#home-for-visiters div.row {
+    padding: 1em 0;
+}
+
+
+
+/* スローガン */
+  #slogan {
+      background: #dd356e;
+  }
+
+
+
+
+ /* 研究内容 */ 
+ #research .research-frame {
+    background: white;
+    width: 100%;
+    padding: 3em;
+    margin-bottom: 100px;
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.13);
+ }
+ #research .research-frame img {
+     width: 100%;
+     margin-bottom: 30px;
+ }
+
+
+ /* メンバー */
+ #members .member-frame {
+    float: left;
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.13);
+ }
+ #members .member-group {
+     margin-bottom: 30px; 
+ }
+ #members .member-frame .icon img {
+    margin: 0px 20px;
+    float: left;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid rgb(231, 231, 231);
+ }
+ #members .member-frame .name {
+    margin: 0px 20px;
+    float: left;
+ }
+ #members .member-frame .name a {
+    font-size: 24px;
+    color: black;
+ }
+ #members .member-frame .name a:any-link {
+    color: #dd356e;
+ }
+ #members .member-frame .name a:hover {
+    color: #8d2347;
+ }
+ #members .member-frame .name p {
+    font-size: 18px;
+    color: #828282;
+    margin: 0px;
+ }
+ #members .ob-group .member-frame .name {
+    float: none;
+ }
+
+
+
+ /* 研究業績 */
+ #publications .pub-group {
+     margin-bottom: 20px;
+ }
+ #publications .custom-subheading-black {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+ }
+ #publications .pub-list {
+    margin: 30px 0px;
+    font-size: 14px;
+ }
+ #publications .pub-data {
+     margin: 10px 0px;
+ }
+ #publications .pub-data .pub-year p {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px;
+ }
+
+ #publications .pub-data .pub-text {
+     padding: 0px 10px;
+ }
+ #publications .pub-data .pub-pdf{
+    padding: 10px 10px;
+ }
+ 
+
+
+ /* リソース */
+ #resources .resource-frame {
+    float: left;
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 100px;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.13);
+ }
+ #resources .resource-group {
+     margin: 100px 0px; 
+ }
+ #resources .resource-frame .icon {
+    /* アイコンに円形をつける　*/
+    margin: 15px 0px;
+    display: table;
+    float: left;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #DD356E;
+}
+#resources .resource-frame .icon i {
+    /* アイコンの位置と色 */
+    font-size: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    height: 60px;
+    color: #DD356E !important;
+}
+#resources .resource-frame .custom-subheading-black {
+    margin: 10px 10px 10px 80px;
+ }
+#resources .resource-frame .details {
+    margin: 10px;
+    float: left;
+ }
+ #resources .resource-frame .read-more {
+     float: left;
+     color: #DD356E;
+     transition: 0.2s;
+ }
+ #resources .resource-frame .read-more:hover {
+    float: left;
+    color: rgb(161, 49, 87);
+}
+#resources .resource-frame .btn {
+    float: right;
+}
+
+
+
+ /* アクセス */
+ #access .address {
+     margin-bottom: 30px;
+ }
+ #access .address i {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.3);
+  }
+ #access .address p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0px;
+  }
+#access .root {
+    padding: 0 0 7em;
+}
+#access .root span {
+    color: #DD356E
+}
+#access .root ul {
+    margin-bottom: 30px;
+}
+#access .bus-time-table {
+    padding: 7em 0;
+}
+
+
+
+/* ニュース */
+#news .news-subtitle h3 {
+    font-size: 30px;
+    margin: 30px 0px 30px 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    color: black;
+}
+#news .news-data {
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+#news .news-data p {
+    margin-bottom: 0px;
+}
+#news .news-date {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0px;
+}
+#news .news-text {
+    font-size: 16px;
+    padding: 4px;
+}
+
+
+/* リソース詳細 */
+#resource-details .custom-heading-black h2 {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+#resource-details .dataset .data-list {
+    margin-bottom: 30px;
+}
+#resource-details .dataset ul li {
+    margin: 10px;
+}
+#resource-details .dataset span {
+    float: left;
+}
+#resource-details .dataset .files {
+    float: right;
+}
+
+
+/* 404 */
+#page404 .container {
+    margin: 100px;
+    font-family: "Inconsolata";
+}
+#page404 p {
+    font-size: 50px;
+}
+#page404 span {
+    font-size: 200px;
+    color: #DD356E;
+}
+
