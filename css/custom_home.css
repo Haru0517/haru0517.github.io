@@ -42,12 +42,12 @@ antiquewhite,
 }
 
 /*全体の設定*/
-#space, #aboutme, #affiliation, #education, #publication {
+#aboutme, #affiliation, #education, #publication {
     padding: 7em 0;
     clear: both;
 }
 @media screen and (max-width: 768px){
-#space, #aboutme, #affiliation, #education, #publication {
+#aboutme, #affiliation, #education, #publication {
     padding: 3em 0;
 }
 }
@@ -67,6 +67,12 @@ antiquewhite,
 /*Home*/
 #fh5co-header {
     background-color: var(--sub-color);
+}
+#fh5co-header .display-tc,
+.fh5co-cover .display-tc {
+  display: table-cell !important;
+  vertical-align: middle;
+  text-align: center;
 }
 
 /*About Me*/
